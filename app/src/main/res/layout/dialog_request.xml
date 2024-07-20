@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/phone_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?attr/borderlessButtonStyle"
+            android:fontFamily="@font/ubuntu_medium"
+            android:text="Позвонить по телефону" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/whatsapp_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?attr/borderlessButtonStyle"
+            android:fontFamily="@font/ubuntu_medium"
+            android:text="Написать в WhatsApp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/telegram_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?attr/borderlessButtonStyle"
+            android:fontFamily="@font/ubuntu_medium"
+            android:text="Написать в Telegram" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

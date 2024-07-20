@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.CarApp" parent="Theme.Material3.DynamicColors.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.CarApp" parent="Base.Theme.CarApp" />
+
+    <style name="UbuntuBoldTextAppearance">
+        <item name="android:fontFamily">@font/ubuntu_medium</item>
+    </style>
+
+    <style name="UbuntuTextAppearance">
+        <item name="android:fontFamily">@font/ubuntu</item>
+    </style>
+
+    <style name="Material3Dialog" parent="Theme.Material3.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowSoftInputMode">stateUnchanged</item>
+    </style>
+</resources>
